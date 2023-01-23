@@ -1,0 +1,20 @@
+.duzy-kwadrat{
+    border: 10px solid #666360;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background-color: #a6a9b6;
+}
+.kwadrat {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+.jasny{
+    background-color: #e4e4e4;
+    right:0px;
+}
+.pomaranczowy{
+    background-color: #ff912e;
+    bottom: 0px;
+}
