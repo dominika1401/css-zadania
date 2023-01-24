@@ -1,0 +1,54 @@
+* {
+box-sizing: border-box;
+}
+.duzyKwadrat{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center
+    ;
+}
+.kwadrat{
+    width: 100px;
+    height: 100px;
+    border: 1.5px solid white;
+    position: relative;
+}
+.kolo{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.czerwony {
+    background-color: red;
+}
+.niebieski{
+    background-color: blue;
+}
+.zielony{
+    background-color: green;
+}
+.zolty{
+    background-color: yellow;
+}
+.czarny{
+    background-color: black;
+}
+.pomaranczowy{
+    background-color: orange;
+}
+.fioletowy{
+    background-color: purple;
+}
+.szary{
+    background-color: gray;
+}
+.rozowy{
+    background-color: pink;
+}
