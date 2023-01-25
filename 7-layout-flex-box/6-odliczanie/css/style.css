@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+.kwadrat1 {
+    width: 500px;
+    height: 300px;
+    background-color: black;
+    position: relative;
+}
+
+.kwadrat {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    font-size: 150px;
+    color: white;
+}
+
+#iloveCSS {
+    font-size: 150px;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+#liczba1,
+#liczba2,
+#liczba3,
+#liczba4,
+#liczba5,
+#liczba6,
+#liczba7,
+#liczba8,
+#liczba9,
+#liczba10,
+#iloveCSS {
+    text-align: center;
+    visibility: hidden;
+}
+
+@keyframes znikanie {
+    0% {
+        visibility: visible;
+    }
+
+    100% {
+        visibility: hidden;
+    }
+}
+
+@keyframes pojawieniesie {
+
+    0%,
+    100% {
+        visibility: visible;
+    }
+}
+
+#liczba10 {
+    animation-duration: 1s;
+    animation-name: znikanie;
+    animation-timing-function: ease-in-out;
+}
+
+#liczba9 {
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-name: znikanie;
+    animation-timing-function: ease-in-out;
+}
+
+#liczba8 {
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-name: znikanie;
+    animation-timing-function: ease-in-out;
+}
+
+#liczba7 {
+    animation-delay: 3s;
+    animation-duration: 1s;
+    animation-name: znikanie;
+    animation-timing-function: ease-in-out;
+}
+
+#liczba6 {
+    animation-delay: 4s;
+    animation-duration: 1s;
+    animation-name: znikanie;
+    animation-timing-function: ease-in-out;
+}
+
+#liczba5 {
+    animation-delay: 5s;
+    animation-duration: 1s;
+    animation-name: znikanie;
+    animation-timing-function: ease-in-out;
+}
+
+#liczba4 {
+    animation-delay: 6s;
+    animation-duration: 1s;
+    animation-name: znikanie;
+    animation-timing-function: ease-in-out;
+}
+
+#liczba3 {
+    animation-delay: 7s;
+    animation-duration: 1s;
+    animation-name: znikanie;
+    animation-timing-function: ease-in-out;
+}
+
+#liczba2 {
+    animation-delay: 8s;
+    animation-duration: 1s;
+    animation-name: znikanie;
+    animation-timing-function: ease-in-out;
+}
+
+#liczba1 {
+    animation-delay: 9s;
+    animation-duration: 1s;
+    animation-name: znikanie;
+    animation-timing-function: ease-in-out;
+}
+
+#iloveCSS {
+    animation-delay: 10s;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-name: pojawieniesie;
+    animation-timing-function: ease-in-out;
+}
