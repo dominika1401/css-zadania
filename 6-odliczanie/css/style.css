@@ -60,73 +60,56 @@
     }
 }
 
+#liczba1,
+#liczba2,
+#liczba3,
+#liczba4,
+#liczba5,
+#liczba6,
+#liczba7,
+#liczba8,
+#liczba9,
 #liczba10 {
     animation-duration: 1s;
     animation-name: znikanie;
     animation-timing-function: ease-in-out;
 }
 
+
 #liczba9 {
     animation-delay: 1s;
-    animation-duration: 1s;
-    animation-name: znikanie;
-    animation-timing-function: ease-in-out;
 }
 
 #liczba8 {
     animation-delay: 2s;
-    animation-duration: 1s;
-    animation-name: znikanie;
-    animation-timing-function: ease-in-out;
 }
 
 #liczba7 {
     animation-delay: 3s;
-    animation-duration: 1s;
-    animation-name: znikanie;
-    animation-timing-function: ease-in-out;
 }
 
 #liczba6 {
     animation-delay: 4s;
-    animation-duration: 1s;
-    animation-name: znikanie;
-    animation-timing-function: ease-in-out;
 }
 
 #liczba5 {
     animation-delay: 5s;
-    animation-duration: 1s;
-    animation-name: znikanie;
-    animation-timing-function: ease-in-out;
 }
 
 #liczba4 {
     animation-delay: 6s;
-    animation-duration: 1s;
-    animation-name: znikanie;
-    animation-timing-function: ease-in-out;
 }
 
 #liczba3 {
     animation-delay: 7s;
-    animation-duration: 1s;
-    animation-name: znikanie;
-    animation-timing-function: ease-in-out;
 }
 
 #liczba2 {
     animation-delay: 8s;
-    animation-duration: 1s;
-    animation-name: znikanie;
-    animation-timing-function: ease-in-out;
 }
 
 #liczba1 {
     animation-delay: 9s;
-    animation-duration: 1s;
-    animation-name: znikanie;
-    animation-timing-function: ease-in-out;
 }
 
 #iloveCSS {

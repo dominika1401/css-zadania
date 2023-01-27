@@ -5,9 +5,7 @@
 body {
     background-color: #98fb98;
 }
-.castom{
-    background-color: red;
-}
+
 .shop {
     display: flex;
     flex-wrap: wrap;
@@ -44,7 +42,7 @@ body {
     background-image: url(product-4.jpg);
 }
 
-.shop .produkt .fa-cart-shopping {
+.shop .produkt .fa-facebook {
     position: absolute;
     top: 0;
     left: 0;
@@ -59,7 +57,7 @@ body {
     transition: all 0.3s;
 }
 
-.shop .produkt .fa-cart-shopping:hover {
+.shop .produkt .fa-facebook:hover {
     opacity: 1;
 }
 

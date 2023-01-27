@@ -1,15 +1,17 @@
 .akademia108{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 600px;
     height: 300px;
     background-color: brown;
-    text-align: center;
     text-transform: uppercase;
     font-size: 3em;
     color: white;
 }
 .akademia108 span{
     opacity: 0;
-    animation: loading 1s linear infinite alternate;
+    animation: loading 3s linear infinite alternate;
 }
 @keyframes loading {
     to {
