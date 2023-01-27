@@ -1,0 +1,53 @@
+.akademia108{
+    width: 600px;
+    height: 300px;
+    background-color: brown;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
+    color: white;
+}
+.akademia108 span{
+    opacity: 0;
+    animation: loading 1s linear infinite alternate;
+}
+@keyframes loading {
+    to {
+        opacity: 1;
+    }
+}
+
+.akademia108 span:nth-child(2) {
+    animation-delay: 0.25s;
+}
+
+.akademia108 span:nth-child(3) {
+    animation-delay: 0.5s;
+}
+
+.akademia108 span:nth-child(4) {
+    animation-delay: 0.75s;
+}
+
+.akademia108 span:nth-child(5) {
+    animation-delay: 1s;
+}
+
+.akademia108 span:nth-child(6) {
+    animation-delay: 1.25s;
+}
+.akademia108 span:nth-child(7) {
+    animation-delay: 1.5s;
+}
+.akademia108 span:nth-child(8) {
+    animation-delay: 1.75s;
+}
+.akademia108 span:nth-child(9) {
+    animation-delay: 2s;
+}
+.akademia108 span:nth-child(10) {
+    animation-delay: 2.25s;
+}
+.akademia108 span:nth-child(11) {
+    animation-delay: 2.5s;
+}

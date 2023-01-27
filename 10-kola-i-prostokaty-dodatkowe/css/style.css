@@ -1,0 +1,39 @@
+.duzy-kwadrat {
+    width: 400px;
+    height: 600px;
+    background-color: green;
+    position: relative; }
+
+.kwadrat {
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    position: absolute; }
+
+.kolko {
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+.jeden {
+    top: 0;
+    left: 0;
+}
+
+.dwa {
+    top: 0;
+    right: 0;
+}
+
+.trzy {
+    bottom: 0;
+    left: 0;
+}
+
+.cztery {
+    bottom: 0;
+    right: 0;
+}
